@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ocproducts.composr.sdk.CMS_SignupActivity" >
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:ems="10"
+        android:hint="@string/signup_username_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtConfirmPassword"
+        android:layout_below="@+id/txtUsername"
+        android:ems="10"
+        android:hint="@string/signup_password_hint"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtPassword"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="@string/signup_confirmPassword_hint"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtUsername"
+        android:layout_below="@+id/txtConfirmPassword"
+        android:ems="10"
+        android:hint="@string/signup_email_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtConfirmEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtConfirmPassword"
+        android:layout_below="@+id/txtEmail"
+        android:ems="10"
+        android:hint="@string/signup_confirmEmail_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtConfirmEmail"
+        android:layout_below="@+id/txtConfirmEmail"
+        android:ems="10"
+        android:hint="@string/signup_dob_hint"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtConfirmPassword"
+        android:layout_alignParentBottom="true"
+        android:text="@string/signup_signupBtn_text" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSignup"
+        android:layout_alignBottom="@+id/btnSignup"
+        android:layout_alignRight="@+id/txtEmail"
+        android:text="@string/signup_cancelBtn_text" />
+
+</RelativeLayout>

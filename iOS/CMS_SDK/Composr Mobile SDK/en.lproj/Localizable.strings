@@ -1,0 +1,55 @@
+/* 
+  Localizable.strings
+  Composr Mobile SDK
+
+  Created by Aaswini on 04/08/14.
+  Copyright (c) 2014 Aaswini. All rights reserved.
+*/
+
+"EXAMPLE_STRING" = "This is an example string";
+
+//LoginViewController
+"LABEL_LOGIN_USERNAME" = "Username";
+"LABEL_LOGIN_PASSWORD" = "Password";
+"BUTTON_LOGIN_LOGIN" = "Login";
+
+//SignupViewController
+"LABEL_SIGNUP_USERNAME" = "Username";
+"LABEL_SIGNUP_PASSWORD" = "Password";
+"LABEL_SIGNUP_CONFIRM_PASSWORD" = "Confirm Password";
+"LABEL_SIGNUP_EMAIL" = "Email";
+"LABEL_SIGNUP_CONFIRM_EMAIL" = "Confirm Email";
+"LABEL_SIGNUP_DOB" = "DOB";
+"BUTTON_SIGNUP_SIGNUP" = "Sign Up";
+"BUTTON_SIGNUP_CANCEL" = "Cancel";
+
+//PasswordRecoverViewController
+"LABEL_PASSWORD_RECOVER_EMAIL" = "Enter Email Address";
+"BUTTON_PASSWORD_RECOVER_SUBMIT" = "Submit";
+"BUTTON_PASSWORD_RECOVER_CANCEL" = "Cancel";
+"LABEL_PASSWORD_RECOVER_FORGOT_PASSWORD" = "Forgot Password";
+
+//ContactViewController
+"LABEL_CONTACT_SUBJECT" = "Subject";
+"LABEL_CONTACT_EMAIL" = "Email";
+"LABEL_CONTACT_MESSAGE" ="Message";
+"BUTTON_CONTACT_SAVE" ="Save";
+
+"ALERT_LOGIN_TITLE" = "Required Fields";
+"ALERT_LOGIN_MESSAGE" = "Username and password must both be filled in";
+"ALERT_LOGIN_MESSAGE_REQUEST_FAIL" = "Login Failed";
+"ALERT_LOGIN_BUTTON" = "Ok";
+"ALERT_SIGNUP_MESSAGE_USERNAME" = "Please enter a Username";
+"ALERT_SIGNUP_MESSAGE_PASSWORD" = "Please enter a Password with minimum of 5 letters";
+"ALERT_SIGNUP_MESSAGE_CONFIRM_PASSWORD" = "Please correctly re-enter the password";
+"ALERT_SIGNUP_MESSAGE_EMAIL" = "Please enter a valid email address";
+"ALERT_SIGNUP_MESSAGE_REQUEST_FAIL" = "Register Failed";
+"ALERT_SIGNUP_BUTTON" = "Ok";
+"ALERT_PASSWORD_RECOVER_MESSAGE_USERNAME" = "Please enter a Username or Email address";
+"ALERT_PASSWORD_RECOVER_MESSAGE_REQUEST_FAIL" = "Recover Password Request failed";
+"ALERT_PASSWORD_RECOVER_BUTTON" = "Ok";
+"ALERT_CONTACT_MESSAGE_SUBJECT" = "Please enter a Subject";
+"ALERT_CONTACT_MESSAGE_EMAIL" = "Please enter a valid email address";
+"ALERT_CONTACT_MESSAGE_MESSAGE" = "Please enter a message";
+"ALERT_CONTACT_MESSAGE_REQUEST_FAIL" = "Feedback Request failed";
+"ALERT_CONTACT_BUTTON" = "Ok";

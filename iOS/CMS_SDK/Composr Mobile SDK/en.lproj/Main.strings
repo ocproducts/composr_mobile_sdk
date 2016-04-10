@@ -1,0 +1,9 @@
+
+/* Class = "IBUILabel"; text = "Password  :"; ObjectID = "2Lv-c6-bWp"; */
+"2Lv-c6-bWp.text" = "Password  :";
+
+/* Class = "IBUIButton"; normalTitle = "Login"; ObjectID = "F4p-8u-25v"; */
+"F4p-8u-25v.normalTitle" = "Login";
+
+/* Class = "IBUILabel"; text = "Username : "; ObjectID = "x46-MY-ZJ2"; */
+"x46-MY-ZJ2.text" = "Username : ";

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CMS_SDK</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_feed_list">Feeds</string>
+    <string name="title_activity_feed_detail">Feed Detail</string>
+    <string name="title_activity_cms_login">Login</string>
+    <string name="title_activity_cms__signup">Signup</string>
+    <string name="title_activity_cms__password_reset">Forgot Password</string>
+    <string name="title_activity_cms__contact">Contact</string>
+
+    <!-- CMS Login Activity -->
+    <string name="login_username_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_loginBtn_text">Login</string>
+    <string name="login_signupBtn_text">Signup</string>
+
+    <!-- CMS Signup Activity -->
+    <string name="signup_username_hint">Username</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_confirmPassword_hint">Confirm Password</string>
+    <string name="signup_email_hint">Email</string>
+    <string name="signup_confirmEmail_hint">Confirm Email</string>
+    <string name="signup_dob_hint">DOB</string>
+    <string name="signup_signupBtn_text">Signup</string>
+    <string name="signup_cancelBtn_text">Cancel</string>
+    
+    <!-- CMS Forgot Password Activity -->
+    <string name="forgotPassword_email_hint">Email</string>
+    <string name="forgotPassword_submitBtn_text">Submit</string>
+    <string name="forgotPassword_cancelBtn_text">Cancel</string>
+    
+    <!-- CMS Contact Activity -->
+    <string name="contact_subject_hint">Subject</string>
+    <string name="contact_email_hint">Email</string>
+    <string name="contact_message_hint">Message</string>
+    <string name="contact_saveBtn_text">Save</string>
+    
+    <!--CMS Upload Image Activity  -->
+    <string name="camera_text">Camera</string>
+    <string name="gallery_text">Gallery</string>
+    <string name="cancel_text">Cancel</string>
+    
+    <string name="validation_error_title">Invalid Input</string>
+    <string name="required_field_error_msg">%s is a required field</string>
+    <string name="menu_submit">Submit</string>
+    
+    <!-- JUNIT -->
+    <string name="EXAMPLE_STRING">This is an example string</string>
+    
+</resources>
