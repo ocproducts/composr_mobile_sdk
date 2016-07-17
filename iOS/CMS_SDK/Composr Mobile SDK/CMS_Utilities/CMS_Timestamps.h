@@ -10,7 +10,8 @@
  
  CMS_Timestamps
  
- get_timezoned_date(int timestamp, bool includeTime) - turns a unix timestamp into a written date or date&time, in the phone's timezone
+ get_timezoned_date_time(int timestamp) - turns a unix timestamp into a written date&time, in the phone's timezone
+ get_timezoned_date(int timestamp) - turns a unix timestamp into a written date, in the phone's timezone
  int time() - returns unix timestamp
  
  */
@@ -19,7 +20,8 @@
 
 @interface CMS_Timestamps : NSObject
 
-+ (NSString *)get_timezoned_date:(int)timestamp :(BOOL)includeTime;
++ (NSString *)get_timezoned_date_time:(int)timestamp;
++ (NSString *)get_timezoned_date:(int)timestamp;
 + (int)time;
 
 @end

@@ -14,11 +14,11 @@ public class CMS_Timestamps_Test {
 		
 	    String expectedOutput = "Feb 09, 2016 - 06:13:59";
 	    
-	    System.out.println(CMS_Timestamps.get_timezoned_date(timestamp, true));
-	    assertTrue(expectedOutput.equals(CMS_Timestamps.get_timezoned_date(timestamp, true)));
+	    System.out.println(CMS_Timestamps.get_timezoned_date_time(timestamp));
+	    assertTrue(expectedOutput.equals(CMS_Timestamps.get_timezoned_date_time(timestamp)));
 	    
 	    String expectedOutputWithoutTime = "Feb 09, 2016";
-	    assertTrue(expectedOutputWithoutTime.equals(CMS_Timestamps.get_timezoned_date(timestamp, false)));
+	    assertTrue(expectedOutputWithoutTime.equals(CMS_Timestamps.get_timezoned_date(timestamp)));
 	}
 
 }

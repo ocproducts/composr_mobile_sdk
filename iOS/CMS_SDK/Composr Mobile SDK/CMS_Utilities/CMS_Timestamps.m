@@ -11,23 +11,34 @@
 @implementation CMS_Timestamps
 
 /**
- *  Turns a unix timestamp into a written date or date&time, in the phone's timezone
+ *  Turns a unix timestamp into a written date&time, in the phone's timezone
  *
  *  @param timestamp   unix timestamp to be converted
  *  @param includeTime should time be considered from the timestamp ? YES - consider time, NO - discard time
  *
  *  @return String representation of the supplied timestamp
  */
-+ (NSString *)get_timezoned_date:(int)timestamp :(BOOL)includeTime{
++ (NSString *)get_timezoned_date_time:(int)timestamp{
     NSDate *localDate = [NSDate dateWithTimeIntervalSince1970:timestamp];
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
     
-    if (includeTime) {
-        [dateFormatter setDateFormat:@"MMM dd, yyyy - HH:mm:ss"];
-    }
-    else{
-        [dateFormatter setDateFormat:@"MMM dd, yyyy"];
-    }
+    [dateFormatter setDateFormat:@"MMM dd, yyyy - HH:mm:ss"];
+    return [dateFormatter stringFromDate:localDate];
+}
+
+/**
+ *  Turns a unix timestamp into a written date, in the phone's timezone
+ *
+ *  @param timestamp   unix timestamp to be converted
+ *  @param includeTime should time be considered from the timestamp ? YES - consider time, NO - discard time
+ *
+ *  @return String representation of the supplied timestamp
+ */
++ (NSString *)get_timezoned_date:(int)timestamp{
+    NSDate *localDate = [NSDate dateWithTimeIntervalSince1970:timestamp];
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc]init];
+    
+    [dateFormatter setDateFormat:@"MMM dd, yyyy"];
     return [dateFormatter stringFromDate:localDate];
 }
 

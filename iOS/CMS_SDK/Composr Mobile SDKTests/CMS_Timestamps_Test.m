@@ -31,9 +31,9 @@
 {
     int timestamp = 1427209581;
     NSString *expectedOutput = @"Mar 24, 2015 - 20:36:21";
-    XCTAssertTrue([expectedOutput isEqualToString:[CMS_Timestamps get_timezoned_date:timestamp :YES]]);
+    XCTAssertTrue([expectedOutput isEqualToString:[CMS_Timestamps get_timezoned_date_time:timestamp]]);
     NSString *expectedOutputWithoutTime = @"Mar 24, 2015";
-    XCTAssertTrue([expectedOutputWithoutTime isEqualToString:[CMS_Timestamps get_timezoned_date:timestamp :NO]]);
+    XCTAssertTrue([expectedOutputWithoutTime isEqualToString:[CMS_Timestamps get_timezoned_date:timestamp]]);
 }
 
 - (void)test_time
